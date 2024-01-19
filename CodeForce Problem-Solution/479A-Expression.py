@@ -1,0 +1,17 @@
+a=int(input())
+b=int(input())
+c=int(input())
+e=a+b+c
+f=(a*b)+c
+g=a*b*c
+h=a+(b*c)
+i=a*(b+c)
+j=(a+b)*c
+l=[]
+l.append(e)
+l.append(f)
+l.append(g)
+l.append(h)
+l.append(i)
+l.append(j)
+print(max(l))
